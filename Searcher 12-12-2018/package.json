@@ -1,0 +1,41 @@
+{
+  "name": "searcher",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.6.1",
+    "react-native": "0.57.5",
+    "react-native-autocomplete-input": "^3.6.0",
+    "react-native-button": "^2.3.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-device-info": "^0.21.5",
+    "react-native-elements": "^0.19.1",
+    "react-native-image-picker": "^0.27.1",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-keyboard-aware-scroll-view": "^0.7.4",
+    "react-native-material-bottom-navigation": "^1.0.0",
+    "react-native-modalbox": "^1.6.0",
+    "react-native-picker": "^4.3.7",
+    "react-native-picker-select": "^4.4.0",
+    "react-native-popup-dialog": "^0.15.0",
+    "react-native-ratings": "^6.0.0",
+    "react-native-search-header": "^0.3.0",
+    "react-native-share": "^1.1.3",
+    "react-native-simple-toast": "0.0.8",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.11.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
